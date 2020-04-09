@@ -6,3 +6,4 @@ spring:
   jpa:
     hibernate:
       dll-auto: update
+    properties.hibernate.dialect: org.hibernate.dialect.MySQL5InnoDBDialect
